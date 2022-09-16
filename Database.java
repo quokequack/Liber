@@ -72,7 +72,7 @@ public class Database{
         stmt7.setInt(1, 001);
         stmt7.setString(2, "Ana Paula");
         stmt7.setString(3, "Gerente");
-        stmt7.setString(4, "11th Street Brooklyn New York");
+        stmt7.setString(4,"11th Street Brooklyn New York");
         stmt7.execute();
     }
 }
